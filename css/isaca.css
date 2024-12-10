@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eaf7f7;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #004d40;
+}
+
+.navbar-brand span {
+    color: #80cbc4;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #4db6ac;
+}
+
+/* Header */
+header {
+    background-color: #80cbc4;
+    color:black;
+    text-align: center;
+    padding: 60px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+/* Sections */
+.content-section {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: #004d40;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+/* Modal Styling */
+.modal-header {
+    background-color: #004d40;
+    color: white;
+}
+
+.modal-body {
+    background-color: #f0f8f8;
+}
+
+/* Footer */
+footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #80cbc4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}

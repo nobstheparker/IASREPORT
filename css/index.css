@@ -1,0 +1,150 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:azure;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    background-color: #00264d; /* Dark Blue */
+}
+
+.navbar-brand {
+    font-size: 1.75rem; /* Larger title */
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand span {
+    color: #008080; /* Teal */
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #00bfbf;
+}
+
+.background-section {
+    background-image: url('path/to/your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.background-section {
+    background-image: url("../img/infosec\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    transform: scale(transparent);
+}
+header {
+    background-color: #008080; /* Teal */
+    color: white;
+}
+
+.btn-primary {
+    background-color: #00264d;
+    border-color: #00264d;
+}
+
+.btn-primary:hover {
+    background-color: #005377;
+    border-color: #005377;
+}
+
+footer {
+    background-color: #00264d;
+    color: white;
+}
+
+footer a {
+    color: #00bfbf; /* Light teal link */
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+/* Sidebar Styles */
+.side-panel {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.side-panel h4 {
+    color: #00264d;
+}
+
+.side-panel a {
+    display: block;
+    color: #008080;
+    margin-bottom: 10px;
+}
+
+.side-panel a:hover {
+    color: #005377;
+}
+
+.main-content {
+    margin-left: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.row {
+    margin-top: 20px;
+}
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+}
+.card-body {
+    background-color:#00264d;
+}
+.card-title {
+font-family: 'Poppins', sans-serif;
+font-weight: 600;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+}
+
+/* Buttons */
+.btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+/* Side Panel */
+.side-panel h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.navbar-title {
+    font-size: 2rem; /* Larger title size */
+    font-weight:bolder;
+    font-family: 'Poppins', sans-serif;
+    color:#00264d;
+}
+
+.navbar-title span {
+    color: #008080; /* Teal */
+}
